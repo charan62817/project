@@ -1,0 +1,48 @@
+{
+  "name": "NutriSync AI - Food Compatibility App",
+  "short_name": "NutriSync AI",
+  "description": "AI-powered food compatibility and nutritional guidance app",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0c29",
+  "theme_color": "#00c6ff",
+  "orientation": "portrait-primary",
+  "categories": ["health", "fitness", "food"],
+  "lang": "en-US",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Food Compatibility Check",
+      "short_name": "Compatibility",
+      "description": "Check food compatibility between two foods",
+      "url": "/?tab=check",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "AI Food Suggestions",
+      "short_name": "Suggestions",
+      "description": "Get personalized food recommendations",
+      "url": "/?tab=suggest",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    }
+  ]
+}
